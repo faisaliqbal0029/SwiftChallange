@@ -245,13 +245,13 @@ class FNumber {
     //Create a function that subtracts one positive integer from another, without using -.
     func challenge26a(subtract: Int, from: Int) -> Int {
         //1.
-        //return from + -subtract
+        return from + -subtract
         //2.
         //return from % subtract + (from/subtract - 1) * subtract
         //3.
         //return from + -1 * subtract
         //4
-        return from + ~subtract+1
+        //return from + ~subtract+1
     }
     
 }
